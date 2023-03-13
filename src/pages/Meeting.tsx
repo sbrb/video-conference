@@ -99,7 +99,7 @@ export default function Meeting() {
       render: (meetingId: string) => {
         return (
           <EuiCopy
-            textToCopy={`${process.env.REACT_APP_HOST}/join/${meetingId}`}
+            textToCopy={`https://tez-con.netlify.app/join/${meetingId}`}
           >
             {(copy: any) => (
               <EuiButtonIcon
